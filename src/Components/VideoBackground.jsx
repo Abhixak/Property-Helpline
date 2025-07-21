@@ -1,7 +1,7 @@
 import React from "react";
 import BackVideo from "../Assets/projects.mp4";
 
-const LandingVid = () => {
+const VideoBackground = () => {
   return (
     <div
       style={{ textAlign: "center" }}
@@ -27,4 +27,4 @@ const LandingVid = () => {
   );
 };
 
-export default LandingVid;
+export default VideoBackground;

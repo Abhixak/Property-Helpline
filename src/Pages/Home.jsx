@@ -1,12 +1,12 @@
 import React from 'react';
 import Nav from '../Components/Nav';
-import LandingVid from '../Components/LandingVid'; 
+import VideoBG from '../Components/VideoBackground'; 
 
 const Home = () => {
   return (
     <div>
       <Nav />
-      <LandingVid />
+      <VideoBG />
     </div>
   );
 };

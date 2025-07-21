@@ -13,7 +13,13 @@ const LandingVid = () => {
         loop
         muted
         playsInline
-        style={{ width: "80%", height: "80%", borderRadius: "10px" }}
+        preload="auto"
+        style={{
+          width: "80%",
+          height: "80%",
+          borderRadius: "10px",
+          objectFit: "cover",
+        }}
       >
         Your browser does not support the video tag.
       </video>

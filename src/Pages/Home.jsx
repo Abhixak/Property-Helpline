@@ -1,14 +1,12 @@
 import React from 'react';
-// import LandingVid from "../Components/LandingVid";
 import Nav from '../Components/Nav';
-import LandingVid from '../Components/LandingVid';
+import LandingVid from '../Components/LandingVid'; // ✅ Correct casing
 
 const Home = () => {
   return (
     <div>
-        <Nav />
+      <Nav />
       <LandingVid />
-
     </div>
   );
 };

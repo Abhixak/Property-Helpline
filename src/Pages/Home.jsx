@@ -4,7 +4,7 @@ import VideoBG from '../Components/VideoBackground';
 
 const Home = () => {
   return (
-    <div>
+    <div className='bg-gray-100'>
       <Nav />
       <VideoBG />
     </div>

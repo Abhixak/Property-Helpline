@@ -1,5 +1,5 @@
 import React from "react";
-import landingVideo from "../Assets/projects.mp4";
+import BackVideo from "../Assets/projects.mp4";
 
 const LandingVid = () => {
   return (
@@ -8,7 +8,7 @@ const LandingVid = () => {
       className="flex justify-center items-center !my-6 !mt-8 h-[80%] w-full"
     >
       <video
-        src={landingVideo}
+        src={BackVideo}
         autoPlay
         loop
         muted

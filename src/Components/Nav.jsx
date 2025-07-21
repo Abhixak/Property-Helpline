@@ -1,20 +1,62 @@
-import React from "react";
-import Logo from "../../public/logo.png"; // Make sure this path works after build; consider using `/logo.png` if it's in public
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react"; // Icon library
+import Logo from "../../public/logo.png"; // Adjust if needed
 
 const Nav = () => {
-  return (
-    <div className="flex items-center justify-between sticky top-0 shadow-sm z-10 !px-8 !py-4 bg-white">
-      <img src={Logo} alt="Logo" className="h-26" />
+  const [isOpen, setIsOpen] = useState(false);
 
-      <ul className="flex gap-2 text-black text-[1.2em]">
-        <li className="hover:text-gray-500 cursor-pointer hover:border-b relative !py-4 !px-2">Home</li>
-        <li className="hover:text-gray-500 cursor-pointer hover:border-b relative !py-4 !px-2">About</li>
-        <li className="hover:text-gray-500 cursor-pointer hover:border-b relative !py-4 !px-2">Our Projects</li>
-        <li className="hover:text-gray-500 cursor-pointer hover:border-b relative !py-4 !px-2">Our Services</li>
-        <li className="hover:text-gray-500 cursor-pointer hover:border-b relative !py-4 !px-2">Contact</li>
-        <li className="hover:text-gray-500 cursor-pointer hover:border-b relative !py-4 !px-2">SignUp/SignIn</li>
-      </ul>
-    </div>
+  const navLinks = [
+    "Home",
+    "About",
+    "Our Projects",
+    "Our Services",
+    "Contact",
+    "SignUp/SignIn",
+  ];
+
+  return (
+    <nav className="sticky top-0 z-20 bg-white !px-8 !py-4">
+      <div className="flex items-center justify-between">
+        {/* Left: Logo */}
+        <img src={Logo} alt="Logo" className="h-26" />
+
+        {/* Right: Desktop Menu */}
+        <div className="flex items-center gap-4">
+        <ul className="hidden md:flex gap-4 text-[#1C1C2D] text-[1.2em] font-medium">
+            {navLinks.map((link, idx) => (
+              <li
+                key={idx}
+                className="hover:text-[#A78E75] cursor-pointer hover:border-b border-gray-400 !px-3 !py-2 transition"
+              >
+                {link}
+              </li>
+            ))}
+          </ul>
+
+          {/* Right: Hamburger Icon on Mobile */}
+          <button
+            className="md:hidden text-black"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Dropdown */}
+      {isOpen && (
+        <ul className="md:hidden !mt-4 flex flex-col gap-4 text-black text-lg font-medium items-end">
+          {navLinks.map((link, idx) => (
+            <li
+              key={idx}
+              className="hover:text-gray-600 cursor-pointer border-b w-full text-center !pb-2"
+            >
+              {link}
+            </li>
+          ))}
+        </ul>
+      )}
+    </nav>
   );
 };
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import properties from "../data/propertydata.json";
+import properties from "../data/propertyData.json";
 
 const Projects = () => {
   const [activeIndex, setActiveIndex] = useState(0);

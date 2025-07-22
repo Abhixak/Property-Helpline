@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react"; // Icon library
-import Logo from "../../public/logo.png"; // Adjust if needed
+import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import Logo from "/logo.png";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,53 +10,91 @@ const Nav = () => {
     "Home",
     "About",
     "Our Projects",
-    "Our Services",
     "Contact",
-    "SignUp/SignIn",
   ];
 
   return (
-    <nav className="sticky top-0 z-20 bg-white !px-8 !py-4">
-      <div className="flex items-center justify-between">
-        {/* Left: Logo */}
-        <img src={Logo} alt="Logo" className="h-26" />
+    <nav className="sticky bg-[#FAF9F6] top-0 z-20 !px-6 !py-4">
+      <div className="flex bg-white !px-6 !py-4 md:!py-2 rounded-xl items-center justify-between">
+        {/* Logo */}
+        <img src={Logo} alt="Logo" className="h-16 sm:h-20 lg:h-26" />
 
-        {/* Right: Desktop Menu */}
+        {/* Desktop Menu */}
         <div className="flex items-center gap-4">
-        <ul className="hidden md:flex gap-4 text-[#1C1C2D] text-[1.2em] font-medium">
+          <ul className="hidden md:flex gap-4 text-blue-900 text-[1.2em] font-medium">
             {navLinks.map((link, idx) => (
               <li
                 key={idx}
-                className="hover:text-[#A78E75] cursor-pointer hover:border-b border-gray-400 !px-3 !py-2 transition"
+                className="hover:text-[#A78E75] cursor-pointer !px-3 !py-2 transition"
               >
                 {link}
               </li>
             ))}
           </ul>
 
-          {/* Right: Hamburger Icon on Mobile */}
+          {/* Animated Hamburger Icon */}
           <button
             className="md:hidden text-black"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
+            <AnimatePresence mode="wait">
+              {isOpen ? (
+                <motion.div
+                  key="close"
+                  initial={{ rotate: 180, scale: 0.5, opacity: 0 }}
+                  animate={{ rotate: 0, scale: 1.2, opacity: 1 }}
+                  exit={{ rotate: -180, scale: 0.5, opacity: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 20,
+                  }}
+                >
+                  <X size={30} />
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="menu"
+                  initial={{ rotate: -180, scale: 0.5, opacity: 0 }}
+                  animate={{ rotate: 0, scale: 1.2, opacity: 1 }}
+                  exit={{ rotate: 180, scale: 0.5, opacity: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 20,
+                  }}
+                >
+                  <Menu size={30} />
+                </motion.div>
+              )}
+            </AnimatePresence>
           </button>
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
-      {isOpen && (
-        <ul className="md:hidden !mt-4 flex flex-col gap-4 text-black text-lg font-medium items-end">
-          {navLinks.map((link, idx) => (
-            <li
-              key={idx}
-              className="hover:text-gray-600 cursor-pointer border-b w-full text-center !pb-2"
-            >
-              {link}
-            </li>
-          ))}
-        </ul>
-      )}
+      {/* Mobile Dropdown Animation */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.ul
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="md:hidden !mt-2 w-50 !p-4 flex flex-col rounded-xl text-blue-900 gap-4 text-lg font-medium absolute right-10 bg-white items-center shadow-lg"
+          >
+            {navLinks.map((link, idx) => (
+              <li
+                key={idx}
+                className="cursor-pointer border-b w-full text-center !pb-2"
+              >
+                {link}
+              </li>
+            ))}
+          </motion.ul>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };

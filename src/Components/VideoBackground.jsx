@@ -1,5 +1,5 @@
 import React from "react";
-import BackVideo from "../Assets/projects.mp4";
+import BackVideo from "../assets/projects.mp4";
 
 const VideoBackground = () => {
   return (

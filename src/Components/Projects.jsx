@@ -1,110 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
-const properties = [
-  // Your 16 properties...
-  {
-    id: 1,
-    title: "Luxury Villa in Delhi",
-    image: "/assets/villa.jpg",
-    description: "Spacious 5BHK with modern amenities and private garden.",
-  },
-  {
-    id: 2,
-    title: "Beachside Bungalow in Goa",
-    image: "/assets/beach.jpg",
-    description: "3BHK retreat with beach view and open terrace.",
-  },
-  {
-    id: 3,
-    title: "High-Rise Apartment in Mumbai",
-    image: "/assets/apartment.jpg",
-    description: "Stylish 2BHK with skyline views and gym access.",
-  },
-  {
-    id: 4,
-    title: "Farmhouse in Punjab",
-    image: "/assets/farm.jpg",
-    description: "Open green landscape with a rustic 4BHK villa.",
-  },
-  {
-    id: 5,
-    title: "Penthouse in Bangalore",
-    image: "/assets/penthouse.jpg",
-    description: "Ultra-modern 3BHK penthouse with rooftop garden.",
-  },
-  {
-    id: 6,
-    title: "Studio in Noida",
-    image: "/assets/studio.jpg",
-    description: "1BHK compact studio for working professionals.",
-  },
-  {
-    id: 7,
-    title: "Lakeview Cottage in Udaipur",
-    image: "/assets/lakeview.jpg",
-    description: "Peaceful 2BHK with stunning lake views and private balcony.",
-  },
-  {
-    id: 8,
-    title: "Hilltop Retreat in Shimla",
-    image: "/assets/hilltop.jpg",
-    description: "Cozy 3BHK with a fireplace and panoramic mountain view.",
-  },
-  {
-    id: 9,
-    title: "Commercial Space in Gurgaon",
-    image: "/assets/commercial.jpg",
-    description: "Premium office space in the heart of business district.",
-  },
-  {
-    id: 10,
-    title: "Luxury Mansion in Hyderabad",
-    image: "/assets/mansion.jpg",
-    description: "Sprawling 6BHK with home theatre and indoor pool.",
-  },
-  {
-    id: 11,
-    title: "Eco-Home in Kerala",
-    image: "/assets/eco.jpg",
-    description: "Sustainable 2BHK with solar panels and rainwater harvesting.",
-  },
-  {
-    id: 12,
-    title: "Duplex in Jaipur",
-    image: "/assets/duplex.jpg",
-    description:
-      "Stylish 4BHK duplex with traditional Rajasthani architecture.",
-  },
-  {
-    id: 13,
-    title: "Serviced Apartment in Pune",
-    image: "/assets/service.jpg",
-    description: "Fully furnished 1BHK with housekeeping and gym facilities.",
-  },
-  {
-    id: 14,
-    title: "Budget Flat in Lucknow",
-    image: "/assets/budget.jpg",
-    description:
-      "Affordable 2BHK ideal for small families and first-time buyers.",
-  },
-  {
-    id: 15,
-    title: "Heritage Home in Kolkata",
-    image: "/assets/heritage.jpg",
-    description:
-      "Renovated 3BHK with colonial charm in a historic neighborhood.",
-  },
-  {
-    id: 16,
-    title: "Smart Home in Chennai",
-    image: "/assets/smart.jpg",
-    description:
-      "3BHK with smart automation, security, and voice-controlled systems.",
-  },
-];
+import properties from "../data/propertydata.json";
 
 const Projects = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -139,7 +36,6 @@ const Projects = () => {
       el.scrollBy({ left: scrollAmount, behavior: "smooth" });
     }
 
-    // Wait a bit before checking visibility again
     setTimeout(updateButtonVisibility, 350);
   };
 
@@ -162,7 +58,7 @@ const Projects = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="w-full bg-white !p-6 rounded-xl shadow-xl sticky top-0"
+          className="w-full bg-white !p-6 rounded-xl shadow-xl"
         >
           <img
             src={activeProperty.image}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury Villa in Delhi",
+    "image": "/assets/villa.jpg",
+    "description": "Spacious 5BHK with modern amenities and private garden."
+  },
+  {
+    "id": 2,
+    "title": "Beachside Bungalow in Goa",
+    "image": "/assets/beach.jpg",
+    "description": "3BHK retreat with beach view and open terrace."
+  },
+  {
+    "id": 3,
+    "title": "High-Rise Apartment in Mumbai",
+    "image": "/assets/apartment.jpg",
+    "description": "Stylish 2BHK with skyline views and gym access."
+  },
+  {
+    "id": 4,
+    "title": "Farmhouse in Punjab",
+    "image": "/assets/farm.jpg",
+    "description": "Open green landscape with a rustic 4BHK villa."
+  },
+  {
+    "id": 5,
+    "title": "Penthouse in Bangalore",
+    "image": "/assets/penthouse.jpg",
+    "description": "Ultra-modern 3BHK penthouse with rooftop garden."
+  },
+  {
+    "id": 6,
+    "title": "Studio in Noida",
+    "image": "/assets/studio.jpg",
+    "description": "1BHK compact studio for working professionals."
+  },
+  {
+    "id": 7,
+    "title": "Lakeview Cottage in Udaipur",
+    "image": "/assets/lakeview.jpg",
+    "description": "Peaceful 2BHK with stunning lake views and private balcony."
+  },
+  {
+    "id": 8,
+    "title": "Hilltop Retreat in Shimla",
+    "image": "/assets/hilltop.jpg",
+    "description": "Cozy 3BHK with a fireplace and panoramic mountain view."
+  },
+  {
+    "id": 9,
+    "title": "Studio in Noida",
+    "image": "/assets/studio.jpg",
+    "description": "1BHK compact studio for working professionals."
+  },
+  {
+    "id": 10,
+    "title": "Lakeview Cottage in Udaipur",
+    "image": "/assets/lakeview.jpg",
+    "description": "Peaceful 2BHK with stunning lake views and private balcony."
+  },
+  {
+    "id": 11,
+    "title": "Hilltop Retreat in Shimla",
+    "image": "/assets/hilltop.jpg",
+    "description": "Cozy 3BHK with a fireplace and panoramic mountain view."
+  }
+]

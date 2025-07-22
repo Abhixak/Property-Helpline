@@ -1,92 +1,90 @@
 [
   {
     "id": 1,
-    "title": "Luxury Villa in Delhi",
-    "image": "src/assets/Properties/villa.jpg",
-    "description": "Spacious 5BHK with modern amenities and private garden."
+    "title": "FINTECH SQUARE",
+    "image": "/Assets/Fintech_Square.jpg",
+    "description": "Premium office spaces in the heart of the financial hub — perfect for visionary businesses.",
+    "location": "Phase-8A, Mohali",
+    "priceRange": "₹80 Lakh - ₹2 Cr",
+    "type": "commercial",
+    "status": "Ready to Move",
+    "area": "500 - 2000 sq. ft",
+    "amenities": ["24/7 Security", "Parking", "Cafeteria", "Lift Access"]
   },
   {
     "id": 2,
-    "title": "Beachside Bungalow in Goa",
-    "image": "src/assets/Properties/beach.jpg",
-    "description": "3BHK retreat with beach view and open terrace."
+    "title": "DISTRICT ONE",
+    "image": "/Assets/District_one.jpg",
+    "description": "Strategically located commercial shops — where business meets opportunity!",
+    "location": "PR 7 Road, Zirakpur",
+    "priceRange": "₹50 Lakh - ₹1.5 Cr",
+    "type": "commercial",
+    "status": "Under Construction",
+    "area": "350 - 1200 sq. ft",
+    "amenities": ["High Footfall Area", "Power Backup", "Elevator", "Ample Parking"]
   },
   {
     "id": 3,
-    "title": "High-Rise Apartment in Mumbai",
-    "image": "src/assets/Properties/apartment.jpg",
-    "description": "Stylish 2BHK with skyline views and gym access."
+    "title": "BEVERLY GOLF AVENUE",
+    "image": "/Assets/beverly-golf-avenue.jpg",
+    "description": "Live luxuriously with golf-view 3 & 4 BHK apartments in a serene, green setting.",
+    "location": "Airport Road, Mohali",
+    "priceRange": "₹1.2 Cr - ₹2.5 Cr",
+    "type": "residential",
+    "bhk": "3 & 4 BHK",
+    "status": "Ready to Move",
+    "area": "1950 - 2700 sq. ft",
+    "amenities": ["Golf Course", "Swimming Pool", "Club House", "Gymnasium"]
   },
   {
     "id": 4,
-    "title": "Farmhouse in Punjab",
-    "image": "src/assets/Properties/farm.jpg",
-    "description": "Open green landscape with a rustic 4BHK villa."
+    "title": "MARBELLA GRAND",
+    "image": "/Assets/Marbella_Grand.jpg",
+    "description": "Ultra-luxury 3 to 5 BHK residences with world-class amenities and grand architecture.",
+    "location": "Sector 82, Mohali",
+    "priceRange": "₹2 Cr - ₹4 Cr",
+    "type": "residential",
+    "bhk": "3, 4 & 5 BHK",
+    "status": "Ready to Move",
+    "area": "2300 - 4500 sq. ft",
+    "amenities": ["Luxury Clubhouse", "Infinity Pool", "Mini Theater", "Jogging Track"]
   },
   {
     "id": 5,
-    "title": "Penthouse in Bangalore",
-    "image": "src/assets/Properties/penthouse.jpg",
-    "description": "Ultra-modern 3BHK penthouse with rooftop garden."
+    "title": "SUNTEC CITY",
+    "image": "/Assets/Suntech_city.jpg",
+    "description": "Build your dream home on spacious plots in a gated township with parks and wide roads.",
+    "location": "New Chandigarh",
+    "priceRange": "₹50 Lakh - ₹1.5 Cr",
+    "type": "plot",
+    "status": "Under Construction",
+    "area": "200 - 500 sq. yards",
+    "amenities": ["Gated Community", "Park Facing", "Wide Roads", "Club Membership"]
   },
   {
     "id": 6,
-    "title": "Studio in Noida",
-    "image": "src/assets/Properties/studio.jpg",
-    "description": "1BHK compact studio for working professionals."
+    "title": "ATLANTIS GRAND",
+    "image": "/Assets/Properties/Atlantes_Grand/Atlantis-Grand.jpeg",
+    "description": "Modern 3BHK apartments with all essentials, perfect for young professionals.",
+    "location": "Kharar Landran Road, Mohali",
+    "priceRange": "₹65 Lakh - ₹90 Lakh",
+    "type": "residential",
+    "bhk": "3 BHK",
+    "status": "Ready to Move",
+    "area": "1550 sq. ft",
+    "amenities": ["Modular Kitchen", "Power Backup", "Lift", "CCTV Security"]
   },
   {
     "id": 7,
-    "title": "Lakeview Cottage in Udaipur",
-    "image": "src/assets/Properties/lakeview.jpg",
-    "description": "Peaceful 2BHK with stunning lake views and private balcony."
-  },
-  {
-    "id": 8,
-    "title": "Hilltop Retreat in Shimla",
-    "image": "src/assets/Properties/hilltop.jpg",
-    "description": "Cozy 3BHK with a fireplace and panoramic mountain view."
-  },
-  {
-    "id": 9,
-    "title": "Urban Loft in Gurgaon",
-    "image": "src/assets/Properties/loft.jpg",
-    "description": "Minimalist 2BHK loft with smart home features."
-  },
-  {
-    "id": 10,
-    "title": "Colonial House in Kolkata",
-    "image": "src/assets/Properties/colonial.jpg",
-    "description": "Vintage 4BHK home with wooden flooring and balconies."
-  },
-  {
-    "id": 11,
-    "title": "Luxury Condo in Hyderabad",
-    "image": "src/assets/Properties/condo.jpg",
-    "description": "Modern 3BHK condo with clubhouse and pool access."
-  },
-  {
-    "id": 12,
-    "title": "Riverside Villa in Rishikesh",
-    "image": "src/assets/Properties/riverside.jpg",
-    "description": "4BHK villa with serene river view and meditation space."
-  },
-  {
-    "id": 13,
-    "title": "Smart Apartment in Pune",
-    "image": "src/assets/Properties/smart.jpg",
-    "description": "Tech-enabled 2BHK apartment with voice control features."
-  },
-  {
-    "id": 14,
-    "title": "Desert House in Jaisalmer",
-    "image": "src/assets/Properties/desert.jpg",
-    "description": "Traditional sandstone 3BHK with central courtyard."
-  },
-  {
-    "id": 15,
-    "title": "Rainforest Cottage in Kerala",
-    "image": "src/assets/Properties/rainforest.jpg",
-    "description": "Eco-friendly 2BHK cottage surrounded by lush greenery."
+    "title": "The PINNACLE",
+    "image": "/Assets/Properties/thePinnacle.jpeg",
+    "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
+    "location": "Morni Hills, Panchkula",
+    "priceRange": "₹1.8 Cr - ₹3 Cr",
+    "type": "residential",
+    "bhk": "3 & 4 BHK",
+    "status": "Under Construction",
+    "area": "2500 - 3500 sq. ft",
+    "amenities": ["Lake View", "Private Garden", "Terrace", "Fireplace"]
   }
 ]

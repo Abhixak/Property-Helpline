@@ -6,7 +6,7 @@ const VideoBackground = () => {
     <div className="!px-6">
       <div
         style={{ textAlign: "center" }}
-        className=" flex justify-center bg-white rounded-xl items-center  w-full"
+        className=" flex justify-center bg-white rounded-xl items-center w-full"
       >
         <video
           src={BackVideo}

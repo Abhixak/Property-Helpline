@@ -69,7 +69,7 @@ const AllProjects = () => {
             alt={activeProperty.title}
             className="w-full object-contain rounded-xl !mb-5"
           />
-          <h2 className="text-2xl font-bold text-gray-800">
+          <h2 className="text-2xl font-bold text-red-900">
             {activeProperty.title}
           </h2>
           <p className="text-gray-600 !mt-3 leading-relaxed">
@@ -101,7 +101,7 @@ const AllProjects = () => {
             style={{ scrollBehavior: "smooth" }}
           >
             <div
-              className="grid grid-rows-2 sm:grid-rows-3 lg:grid-rows-4 2xl:grid-rows-5 auto-cols-[minmax(200px,_1fr)] gap-4 grid-flow-col !p-2"
+              className="grid grid-rows-2 sm:grid-rows-3 lg:grid-rows-4 3xl:grid-rows-5 auto-cols-[minmax(200px,_1fr)] gap-4 grid-flow-col !p-2"
               style={{ minWidth: "fit-content" }}
             >
               {properties.map((property, index) => (
@@ -120,7 +120,7 @@ const AllProjects = () => {
                     className="w-20 h-20 object-cover rounded-md"
                   />
                   <div className="truncate">
-                    <h3 className="text-md font-semibold truncate">
+                    <h3 className="text-sm w-full font-semibold  truncate">
                       {property.title}
                     </h3>
                   </div>

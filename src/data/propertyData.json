@@ -3,11 +3,9 @@
     "id": 1,
     "title": "FINTECH SQUARE",
     "image": "/Assets/Properties/Fintech_Square/Fintech_Square.jpg",
-    "images": [
-      "/Assets/Properties/Fintech_Square/img1.png"
-    ],
+    "images": ["/Assets/Properties/Fintech_Square/img1.png"],
     "description": "Premium office spaces in the heart of the financial hub — perfect for visionary businesses.",
-    "long-Desc": "Located at the prestigious CP-2, Industrial Focal Point, Phase – 8A, Sector – 75, Mohali, Punjab, it is all set fo salute your aspirations and take your ambition to the next level. It is set to be the next landmark in the cityscape. It will not just be a commercial destination but will be the first-ever international commercial hub of Tri-city. We have designed it to match all your modern aspirations and lifestyle and we are all set to revolutionize the way you work, live, and celebrate. These smartly designed offices of Fintech Square are built for smart executives. A centre of excellence and perfection, Fintech Square is a perfect office space for any business. The uniquely crafted, spacious and contemporary offices have elegant sky-deck spaces to take your Double your passion imagination to the next level. Based on the evolving nature of business, we have created one-of-a-kind flexible workspaces. The for work optimum space has been designed with efficiency in mind. Come. Experience an ideal workspace like never before. Investment Options In Fintech Square : Fintech Square has multiple investment options in varied budget range. Located in Phase 8B, the property options in this commercial project are available at a starting price of ?1.05 Cr. At Fintech Square, you can invest in office spaces or showrooms as per your investment goal and budget.",
+    "longDesc": "Located at the prestigious CP-2, Industrial Focal Point, Phase – 8A, Sector – 75, Mohali, Punjab, it is all set fo salute your aspirations and take your ambition to the next level. It is set to be the next landmark in the cityscape. It will not just be a commercial destination but will be the first-ever international commercial hub of Tri-city. We have designed it to match all your modern aspirations and lifestyle and we are all set to revolutionize the way you work, live, and celebrate. These smartly designed offices of Fintech Square are built for smart executives. A centre of excellence and perfection, Fintech Square is a perfect office space for any business. The uniquely crafted, spacious and contemporary offices have elegant sky-deck spaces to take your Double your passion imagination to the next level. Based on the evolving nature of business, we have created one-of-a-kind flexible workspaces. The for work optimum space has been designed with efficiency in mind. Come. Experience an ideal workspace like never before. Investment Options In Fintech Square : Fintech Square has multiple investment options in varied budget range. Located in Phase 8B, the property options in this commercial project are available at a starting price of ?1.05 Cr. At Fintech Square, you can invest in office spaces or showrooms as per your investment goal and budget.",
     "location": "Phase 8B, Sector 74, Mohali, Punjab",
     "priceRange": "Call for Price",
     "type": "Commercial Office Space/ Showrooms",
@@ -71,7 +69,7 @@
     "title": "DISTRICT ONE",
     "image": "/Assets/Properties/District_One/District_one.jpg",
     "description": "District One is a GMADA-approved high street commercial hub in Sector 68, Mohali, offering premium retail shops and fine dining spaces. With high footfall from nearby sectors and IT Park, it's ideal for investors and top brands seeking visibility and growth.",
-    "long-Desc": "District One stands out as an upscale high street complex, boasting an impressive array of renowned retail, food and beverage, and personal care brands. Proudly approved by GMADA, it strategically occupies a pivotal location, strategically positioned at the intersection that separates Sector 67 and Sector 68. Its accessibility is unrivalled, drawing direct foot traffic from not just one but four distinct sectors. Furthermore, the presence of an established IT park nearby adds to the allure of the area. Within District One, visitors are treated to a diverse culinary experience ranging from a vibrant food court to sophisticated fine dining options. The attractions on offer are nothing short of extraordinary, guaranteeing an unforgettable experience for all who step foot into this exclusive destination.",
+    "longDesc": "District One stands out as an upscale high street complex, boasting an impressive array of renowned retail, food and beverage, and personal care brands. Proudly approved by GMADA, it strategically occupies a pivotal location, strategically positioned at the intersection that separates Sector 67 and Sector 68. Its accessibility is unrivalled, drawing direct foot traffic from not just one but four distinct sectors. Furthermore, the presence of an established IT park nearby adds to the allure of the area. Within District One, visitors are treated to a diverse culinary experience ranging from a vibrant food court to sophisticated fine dining options. The attractions on offer are nothing short of extraordinary, guaranteeing an unforgettable experience for all who step foot into this exclusive destination.",
     "location": "Adjoining MC Office, Sector 68, Mohali, Punjab",
     "priceRange": "2.50 Cr. - 7.75 Cr",
     "type": "Commercial Shops",
@@ -97,14 +95,18 @@
     "title": "BEVERLY GOLF AVENUE",
     "image": "/Assets/Properties/Beverly/beverly-golf-avenue.jpg",
     "description": "Live luxuriously with golf-view 3 & 4 BHK apartments in a serene, green setting.",
-    "long-Desc":"Beverly Golf Avenue (BGA) is at the helm of the fastest appreciating property location. Considering the economic growth potential of Chandigarh & the surrounding areas under GMADA in the coming years, it is anticipated that the economic growth will drive urbanization and can spur further growth. With this growing urbanization and congestion of existing cities, GMADA conceived the idea of developing a new independent and self-sustaining city of cater to this spillover of the projected growth of Chandigarh and Mohali over the next 20 years. Being in very close proximity to the International Airport and Mohali Cricket Stadium, BGA is well connected and accessible for all. Mohali is presently witnessing an exponential growth in the real estate field due to factors such as impeccable planning, sustained growth and promising prospects of future advancement.",
+    "longDesc": "Beverly Golf Avenue (BGA) is at the helm of the fastest appreciating property location. Considering the economic growth potential of Chandigarh & the surrounding areas under GMADA in the coming years, it is anticipated that the economic growth will drive urbanization and can spur further growth. With this growing urbanization and congestion of existing cities, GMADA conceived the idea of developing a new independent and self-sustaining city of cater to this spillover of the projected growth of Chandigarh and Mohali over the next 20 years. Being in very close proximity to the International Airport and Mohali Cricket Stadium, BGA is well connected and accessible for all. Mohali is presently witnessing an exponential growth in the real estate field due to factors such as impeccable planning, sustained growth and promising prospects of future advancement.",
     "location": "Mohali Golf Range, Sector 65, Punjab",
     "priceRange": "Call For Price",
     "type": "Residential Flats & Apartments",
     "bhk": "3 & 4 BHK",
     "status": "Under Construction",
-    "amenities": ["Golf Course", "Swimming Pool", "Club House", "Fire Fighting Equipment"]
-
+    "amenities": [
+      "Golf Course",
+      "Swimming Pool",
+      "Club House",
+      "Fire Fighting Equipment"
+    ]
   },
   {
     "id": 4,
@@ -156,7 +158,7 @@
     "title": "ATLANTIS GRAND",
     "image": "/Assets/Properties/Atlantes_Grand/Atlantis-Grand.jpeg",
     "description": "Modern 3BHK apartments with all essentials, perfect for young professionals.",
-    "location": "Kharar Landran Road, Mohali",
+    "location": "High Ground Road, Zirakpur",
     "priceRange": "₹65 Lakh - ₹90 Lakh",
     "type": "Residential",
     "bhk": "3 BHK",
@@ -169,7 +171,7 @@
     "title": "THE PINNACLE",
     "image": "/Assets/Properties/The_Pinnacle/thePinnacle.jpeg",
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
-    "location": "Morni Hills, Panchkula",
+    "location": "Sector 83(A), Mohali",
     "priceRange": "₹1.8 Cr - ₹3 Cr",
     "type": "Residential",
     "bhk": "3 & 4 BHK",
@@ -182,7 +184,7 @@
     "title": "LA CANELA",
     "image": "/Assets/Properties/La_Canela/La_Canela.png",
     "description": "Modern 3BHK apartments with all essentials, perfect for young professionals.",
-    "location": "Kharar Landran Road, Mohali",
+    "location": "New Chandigarh, Chandigarh",
     "priceRange": "₹65 Lakh - ₹90 Lakh",
     "type": "Residential",
     "bhk": "3 BHK",
@@ -195,9 +197,9 @@
     "title": "CYBRUM",
     "image": "/Assets/Properties/Cybrum/Cybrum.jpeg",
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
-    "location": "Morni Hills, Panchkula",
+    "location": "Sector 75, Mohali",
     "priceRange": "₹1.8 Cr - ₹3 Cr",
-    "type": "Residential",
+    "type": "Residential Flats",
     "bhk": "3 & 4 BHK",
     "status": "Under Construction",
     "area": "2500 - 3500 sq. ft",
@@ -217,6 +219,8 @@
       "/Assets/Properties/Falcon_View/img8.jpeg"
     ],
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
+    "location": "Sector 66(D), Airport Road, Mohali",
+
     "brochure": "/Assets/Properties/Falcon_View/Brochure.pdf",
     "rateCard": [
       "/Assets/Properties/Falcon_View/TOWERT&U.docx",
@@ -324,10 +328,10 @@
     ],
     "priceRange": "Call For Price",
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
-    "long-Desc": "Discover the perfect balance between classic charm and modern amenities with our residential project. Enjoy a living space where luxurious traditional features seamlessly blend with advanced home technologies. Our thoughtfully designed residences include elegant living rooms, sophisticated dining areas, and serene bedrooms, all crafted to provide an exceptional living experience. Each detail honours timeless elegance while embracing the comforts of the future.",
+    "longDesc": "Discover the perfect balance between classic charm and modern amenities with our residential project. Enjoy a living space where luxurious traditional features seamlessly blend with advanced home technologies. Our thoughtfully designed residences include elegant living rooms, sophisticated dining areas, and serene bedrooms, all crafted to provide an exceptional living experience. Each detail honours timeless elegance while embracing the comforts of the future.",
     "location": "Sector 88, Mohali",
-    "brochure": "/Assets/Properties/Horizon_Belmond/BROCHURE.pdf",
-    "rateCard": "/Assets/Properties/Horizon_Belmond/Payment_Plan.pdf",
+    "brochure": "/Assets/Properties/Joy_Grand/Brochure.pdf",
+    
     "type": "Residential",
     "bhk": "3+1 & 4+1 BHK",
     "status": "Under Construction",

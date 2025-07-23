@@ -5,7 +5,6 @@ import Nav from "../Components/Nav";
 import { AiFillFilePdf } from "react-icons/ai";
 import AllProjects from "../Components/AllProjects";
 
-
 const ProjectDetails = () => {
   const { id } = useParams();
   const property = properties.find((p) => String(p.id) === String(id));
@@ -189,10 +188,12 @@ const ProjectDetails = () => {
         {/* Facilities Table */}
         {property.facilities && property.facilities.length > 0 && (
           <div>
-            <h2 className="text-xl font-bold text-gray-800 !mb-4">Facilities</h2>
+            <h2 className="text-xl font-bold text-red-800 !my-4">
+              Facilities
+            </h2>
             <div className="overflow-x-auto">
               <table className="min-w-full border border-gray-300 rounded-lg">
-                <thead className="bg-gray-200 text-left">
+                <thead className="bg-blue-200 text-left">
                   <tr>
                     <th className="!px-4 !py-2">#</th>
                     <th className="!px-4 !py-2">Facility</th>
@@ -211,41 +212,32 @@ const ProjectDetails = () => {
           </div>
         )}
 
-        {/* Specifications Table */}
+        {/* Specifications */}
         {property.specifications &&
           Object.keys(property.specifications).length > 0 && (
             <div>
-              <h2 className="text-xl font-bold text-gray-800 !my-4">
+              <h2 className="text-xl font-bold text-red-800 !my-4">
                 Specifications
               </h2>
-              <div className="space-y-6">
-                {Object.entries(property.specifications).map(
-                  ([sectionTitle, specs], index) => (
-                    <div key={index}>
-                      <h3 className="text-lg font-semibold text-red-800 !mb-2">
-                        {sectionTitle}
-                      </h3>
-                      <div className="overflow-x-auto">
-                        <table className="min-w-full border border-gray-300 rounded-lg">
-                          <thead className="bg-gray-200 text-left">
-                            <tr>
-                              <th className="!px-4 !py-2">Specification</th>
-                              <th className="!px-4 !py-2">Details</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {Object.entries(specs).map(([key, value], i) => (
-                              <tr key={i} className="border-t border-gray-200">
-                                <td className="!px-4 !py-2">{key}</td>
-                                <td className="!px-4 !py-2">{value}</td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  )
-                )}
+              <div className="overflow-x-auto">
+                <table className="min-w-full border border-gray-300 rounded-lg">
+                  <thead className="bg-blue-200 text-left">
+                    <tr>
+                      <th className="!px-4 !py-2">Specification</th>
+                      <th className="!px-4 !py-2">Details</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {Object.entries(property.specifications).map(
+                      ([sectionTitle, specs], index) => (
+                        <tr key={index} className="border-t border-gray-200">
+                          <td className="!px-4 !py-2">{sectionTitle}</td>
+                          <td className="!px-4 !py-2">{specs}</td>
+                        </tr>
+                      )
+                    )}
+                  </tbody>
+                </table>
               </div>
             </div>
           )}

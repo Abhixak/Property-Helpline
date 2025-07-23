@@ -11,7 +11,7 @@
     "type": "Commercial Office Space/ Showrooms",
     "status": "Ready to Move",
     "area": "460 - 830 sq. ft",
-    "brochure": "/Assets/Properties/Fintech_Square/fintech.pdf",
+    "brochure": "/Assets/Properties/Fintech_Square/Brochure.pdf",
     "amenities": [
       "ATM",
       "Club House",
@@ -75,7 +75,6 @@
     "type": "Commercial Shops",
     "status": "Ready to Move",
     "area": "1098 - 4392 Sq.ft.",
-    "Brochure": "/Assets/Properties/District_One/",
     "amenities": [
       "ATM, Club House, Cafeteria, CCTV Camera, Fire Fighting Equipment, Security/Fire Alarm, Gymnasium, Wi-fi Connectivity, Lift, Maintenance Staff, Water purifier, Reserved Parking, Security, Community Center"
     ],
@@ -136,6 +135,7 @@
     "type": "Residential Plot",
     "status": "Under Construction",
     "area": "944 - 11700 sq. ft.",
+    "layoutPlan": "/Assets/Properties/Suntec_City/Layout.pdf",
     "amenities": [
       "Club House",
       "Earthquake Resistant Structure",
@@ -164,6 +164,8 @@
     "bhk": "3 BHK",
     "status": "Ready to Move",
     "area": "1550 sq. ft",
+    "brochure": "/Assets/Properties/Atantes_Grand/Brochure.pdf",
+    "layoutPlan": "/Assets/Properties/Atlantes_Grand/Layout.pdf",
     "amenities": ["Modular Kitchen", "Power Backup", "Lift", "CCTV Security"]
   },
   {
@@ -175,6 +177,8 @@
     "priceRange": "₹1.8 Cr - ₹3 Cr",
     "type": "Residential",
     "bhk": "3 & 4 BHK",
+    "brochure": "/Assets/Properties/The_Pinnacle/Brochure.pdf",
+    "paymentPlan": "/Assets/Properties/The_Pinnacle/Payment.pdf",
     "status": "Under Construction",
     "area": "2500 - 3500 sq. ft",
     "amenities": ["Lake View", "Private Garden", "Terrace", "Fireplace"]
@@ -187,6 +191,7 @@
     "location": "New Chandigarh, Chandigarh",
     "priceRange": "₹65 Lakh - ₹90 Lakh",
     "type": "Residential",
+    "brochure": "/Assets/Properties/La_Canela/Brochure.pdf",
     "bhk": "3 BHK",
     "status": "Ready to Move",
     "area": "1550 sq. ft",
@@ -202,6 +207,7 @@
     "type": "Residential Flats",
     "bhk": "3 & 4 BHK",
     "status": "Under Construction",
+    "brochure": "/Assets/Properties/Cybrum/Brochure.pdf",
     "area": "2500 - 3500 sq. ft",
     "amenities": ["Lake View", "Private Garden", "Terrace", "Fireplace"]
   },
@@ -300,6 +306,7 @@
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
     "location": "Sector 88, Mohali",
     "brochure": "/Assets/Properties/Horizon_Belmond/BROCHURE.pdf",
+    "layoutPlan":"/Assets/Properties/Horizon_Belmond/Layout.pdf",
     "rateCard": "/Assets/Properties/Horizon_Belmond/Payment_Plan.pdf",
     "type": "Residential",
     "bhk": "3 & 4 BHK",
@@ -331,7 +338,6 @@
     "longDesc": "Discover the perfect balance between classic charm and modern amenities with our residential project. Enjoy a living space where luxurious traditional features seamlessly blend with advanced home technologies. Our thoughtfully designed residences include elegant living rooms, sophisticated dining areas, and serene bedrooms, all crafted to provide an exceptional living experience. Each detail honours timeless elegance while embracing the comforts of the future.",
     "location": "Sector 88, Mohali",
     "brochure": "/Assets/Properties/Joy_Grand/Brochure.pdf",
-    
     "type": "Residential",
     "bhk": "3+1 & 4+1 BHK",
     "status": "Under Construction",

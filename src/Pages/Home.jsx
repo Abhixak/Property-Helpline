@@ -1,13 +1,13 @@
 import VideoBG from '../Components/VideoBackground'; 
-import Projects from '../Components/Projects';
-import Nav from '../Components/Nav.jsx';
+import Nav from '../Components/Nav.jsx'
+import AllProjects from '../Components/AllProjects.jsx'
 const Home = () => {
   return (
     <div>
       <Nav />
       <VideoBG />
       <div id="projects">
-        <Projects />
+        <AllProjects />
       </div>
     </div>
   );

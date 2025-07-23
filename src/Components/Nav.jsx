@@ -1,31 +1,18 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "/logo.png";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const navigate = useNavigate();
   const location = useLocation();
 
-  const scrollToSection = (sectionId) => {
-    if (location.pathname !== "/") {
-      navigate("/");
-      setTimeout(() => {
-        document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
-      }, 100);
-    } else {
-      document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
-    }
-    setIsOpen(false);
-  };
-
   const navLinks = [
-    { name: "Home", id: "home" },
-    { name: "About", id: "about" },
-    { name: "Our Projects", id: "projects" },
-    { name: "Contact", id: "contact" },
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Our Projects", path: "/projects" },
+    { name: "Contact", path: "/contact" },
   ];
 
   return (
@@ -38,12 +25,15 @@ const Nav = () => {
         <div className="flex items-center gap-4">
           <ul className="hidden md:flex gap-4 text-blue-900 text-[1.2em] font-medium">
             {navLinks.map((link, idx) => (
-              <li
-                key={idx}
-                className="hover:text-[#A78E75] cursor-pointer !px-3 !py-2 transition"
-                onClick={() => scrollToSection(link.id)}
-              >
-                {link.name}
+              <li key={idx}>
+                <Link
+                  to={link.path}
+                  className={`!px-3 !py-2 transition ${
+                    location.pathname === link.path ? "text-[#A78E75]" : "hover:text-[#A78E75]"
+                  }`}
+                >
+                  {link.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -83,15 +73,19 @@ const Nav = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden mt-2 w-50 p-4 flex flex-col rounded-xl text-blue-900 gap-4 text-lg font-medium absolute right-10 bg-white items-center shadow-lg"
+            className="md:hidden !mt-2 w-50 !p-4 flex flex-col rounded-xl text-blue-900 gap-4 text-lg font-medium absolute right-10 bg-white items-center shadow-lg"
           >
             {navLinks.map((link, idx) => (
-              <li
-                key={idx}
-                className="cursor-pointer border-b w-full text-center pb-2"
-                onClick={() => scrollToSection(link.id)}
-              >
-                {link.name}
+              <li key={idx} className="cursor-pointer border-b w-full text-center !pb-2">
+                <Link
+                  to={link.path}
+                  onClick={() => setIsOpen(false)}
+                  className={`block w-full ${
+                    location.pathname === link.path ? "text-[#A78E75]" : ""
+                  }`}
+                >
+                  {link.name}
+                </Link>
               </li>
             ))}
           </motion.ul>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import AllProjects from '../Components/AllProjects.jsx'
+import Footer from '../Components/Footer.jsx'
 
 
 const Projects = () => {
@@ -8,6 +9,7 @@ const Projects = () => {
     <div>
         <Nav />
         <AllProjects />
+        <Footer />
     </div>
   )
 }

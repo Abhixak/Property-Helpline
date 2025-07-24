@@ -4,6 +4,8 @@ import properties from "../data/propertyData.json";
 import Nav from "../Components/Nav";
 import { AiFillFilePdf } from "react-icons/ai";
 import AllProjects from "../Components/AllProjects";
+import Footer from "../Components/Footer";
+import ContactShareButtons from "../Components/ContactShareButtons";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -28,7 +30,6 @@ const ProjectDetails = () => {
         <h1 className="text-3xl md:text-4xl text-left !ml-3 font-bold text-blue-800 !mb-4">
           {property.title}
         </h1>
-
         {/* Image Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 !mb-6">
           {/* Left Section - Main Display Image */}
@@ -117,6 +118,9 @@ const ProjectDetails = () => {
             </div>
           </div>
         )}
+
+        <ContactShareButtons />
+
 
         {/* Info Section */}
         <div className="flex flex-col md:flex-row md:items-center gap-2 md:justify-between !mb-6 mt-6">
@@ -314,6 +318,7 @@ const ProjectDetails = () => {
           </div>
         )}
       </div>
+      <Footer />
     </>
   );
 };

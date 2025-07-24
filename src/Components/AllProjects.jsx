@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import properties from "../data/propertyData.json";
+import Footer from "./Footer";
 
 const AllProjects = () => {
   const [activeIndex, setActiveIndex] = useState(0);

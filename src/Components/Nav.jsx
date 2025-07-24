@@ -19,7 +19,7 @@ const Nav = () => {
     <nav className="sticky bg-[#FAF9F6] top-0 z-20 !px-6 !py-4">
       <div className="flex bg-white !px-6 !py-4 md:!py-2 rounded-xl items-center justify-between">
         <Link to="/">
-          <img src={Logo} alt="Logo" className="h-16 sm:h-20 lg:h-26" />
+          <img src={Logo} alt="Logo" className="h-22 sm:h-26 lg:h-30" />
         </Link>
 
         <div className="flex items-center gap-4">

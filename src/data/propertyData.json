@@ -3,7 +3,12 @@
     "id": 1,
     "title": "FINTECH SQUARE",
     "image": "/Assets/Properties/Fintech_Square/Fintech_Square.jpg",
-    "images": ["/Assets/Properties/Fintech_Square/img1.png"],
+    "images": [
+      "/Assets/Properties/Fintech_Square/img1.png",
+      "/Assets/Properties/Fintech_Square/img2.jpg",
+      "/Assets/Properties/Fintech_Square/img3.jpg",
+      "/Assets/Properties/Fintech_Square/img4.jpg"
+  ],
     "description": "Premium office spaces in the heart of the financial hub — perfect for visionary businesses.",
     "longDesc": "Located at the prestigious CP-2, Industrial Focal Point, Phase – 8A, Sector – 75, Mohali, Punjab, it is all set fo salute your aspirations and take your ambition to the next level. It is set to be the next landmark in the cityscape. It will not just be a commercial destination but will be the first-ever international commercial hub of Tri-city. We have designed it to match all your modern aspirations and lifestyle and we are all set to revolutionize the way you work, live, and celebrate. These smartly designed offices of Fintech Square are built for smart executives. A centre of excellence and perfection, Fintech Square is a perfect office space for any business. The uniquely crafted, spacious and contemporary offices have elegant sky-deck spaces to take your Double your passion imagination to the next level. Based on the evolving nature of business, we have created one-of-a-kind flexible workspaces. The for work optimum space has been designed with efficiency in mind. Come. Experience an ideal workspace like never before. Investment Options In Fintech Square : Fintech Square has multiple investment options in varied budget range. Located in Phase 8B, the property options in this commercial project are available at a starting price of ?1.05 Cr. At Fintech Square, you can invest in office spaces or showrooms as per your investment goal and budget.",
     "location": "Phase 8B, Sector 74, Mohali, Punjab",

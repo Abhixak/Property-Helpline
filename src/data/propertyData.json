@@ -8,7 +8,7 @@
       "/Assets/Properties/Fintech_Square/img2.jpg",
       "/Assets/Properties/Fintech_Square/img3.jpg",
       "/Assets/Properties/Fintech_Square/img4.jpg"
-  ],
+    ],
     "description": "Premium office spaces in the heart of the financial hub — perfect for visionary businesses.",
     "longDesc": "Located at the prestigious CP-2, Industrial Focal Point, Phase – 8A, Sector – 75, Mohali, Punjab, it is all set fo salute your aspirations and take your ambition to the next level. It is set to be the next landmark in the cityscape. It will not just be a commercial destination but will be the first-ever international commercial hub of Tri-city. We have designed it to match all your modern aspirations and lifestyle and we are all set to revolutionize the way you work, live, and celebrate. These smartly designed offices of Fintech Square are built for smart executives. A centre of excellence and perfection, Fintech Square is a perfect office space for any business. The uniquely crafted, spacious and contemporary offices have elegant sky-deck spaces to take your Double your passion imagination to the next level. Based on the evolving nature of business, we have created one-of-a-kind flexible workspaces. The for work optimum space has been designed with efficiency in mind. Come. Experience an ideal workspace like never before. Investment Options In Fintech Square : Fintech Square has multiple investment options in varied budget range. Located in Phase 8B, the property options in this commercial project are available at a starting price of ?1.05 Cr. At Fintech Square, you can invest in office spaces or showrooms as per your investment goal and budget.",
     "location": "Phase 8B, Sector 74, Mohali, Punjab",
@@ -73,6 +73,12 @@
     "id": 2,
     "title": "DISTRICT ONE",
     "image": "/Assets/Properties/District_One/District_one.jpg",
+    "images": [
+      "/Assets/Properties/District_One/img1.jpg",
+      "/Assets/Properties/District_One/img2.jpeg",
+      "/Assets/Properties/District_One/img3.jpeg",
+      "/Assets/Properties/District_One/img4.jpeg"
+    ],
     "description": "District One is a GMADA-approved high street commercial hub in Sector 68, Mohali, offering premium retail shops and fine dining spaces. With high footfall from nearby sectors and IT Park, it's ideal for investors and top brands seeking visibility and growth.",
     "longDesc": "District One stands out as an upscale high street complex, boasting an impressive array of renowned retail, food and beverage, and personal care brands. Proudly approved by GMADA, it strategically occupies a pivotal location, strategically positioned at the intersection that separates Sector 67 and Sector 68. Its accessibility is unrivalled, drawing direct foot traffic from not just one but four distinct sectors. Furthermore, the presence of an established IT park nearby adds to the allure of the area. Within District One, visitors are treated to a diverse culinary experience ranging from a vibrant food court to sophisticated fine dining options. The attractions on offer are nothing short of extraordinary, guaranteeing an unforgettable experience for all who step foot into this exclusive destination.",
     "location": "Adjoining MC Office, Sector 68, Mohali, Punjab",
@@ -98,12 +104,25 @@
     "id": 3,
     "title": "BEVERLY GOLF AVENUE",
     "image": "/Assets/Properties/Beverly/beverly-golf-avenue.jpg",
+    "images": [
+      "/Assets/Properties/Beverly/img1.jpg",
+      "/Assets/Properties/Beverly/img2.jpg",
+      "/Assets/Properties/Beverly/img3.jpg",
+      "/Assets/Properties/Beverly/img4.jpg",
+      "/Assets/Properties/Beverly/img5.jpg",
+      "/Assets/Properties/Beverly/img6.jpg",
+      "/Assets/Properties/Beverly/img7.jpg",
+      "/Assets/Properties/Beverly/img8.jpg",
+      "/Assets/Properties/Beverly/img9.jpg",
+      "/Assets/Properties/Beverly/img10.jpg"
+    ],
     "description": "Live luxuriously with golf-view 3 & 4 BHK apartments in a serene, green setting.",
     "longDesc": "Beverly Golf Avenue (BGA) is at the helm of the fastest appreciating property location. Considering the economic growth potential of Chandigarh & the surrounding areas under GMADA in the coming years, it is anticipated that the economic growth will drive urbanization and can spur further growth. With this growing urbanization and congestion of existing cities, GMADA conceived the idea of developing a new independent and self-sustaining city of cater to this spillover of the projected growth of Chandigarh and Mohali over the next 20 years. Being in very close proximity to the International Airport and Mohali Cricket Stadium, BGA is well connected and accessible for all. Mohali is presently witnessing an exponential growth in the real estate field due to factors such as impeccable planning, sustained growth and promising prospects of future advancement.",
     "location": "Mohali Golf Range, Sector 65, Punjab",
     "priceRange": "Call For Price",
     "type": "Residential Flats & Apartments",
     "bhk": "3 & 4 BHK",
+    "layoutPlan": "/Assets/Properties/Beverly/Layout.pdf",
     "status": "Under Construction",
     "amenities": [
       "Golf Course",
@@ -116,7 +135,27 @@
     "id": 4,
     "title": "MARBELLA GRAND",
     "image": "/Assets/Properties/Marbella_Grand/Marbella_Grand.jpg",
+    "images": [
+      "/Assets/Properties/Marbella_Grand/img1.jpg",
+      "/Assets/Properties/Marbella_Grand/img2.jpg",
+      "/Assets/Properties/Marbella_Grand/img3.jpg",
+      "/Assets/Properties/Marbella_Grand/img4.jpg",
+      "/Assets/Properties/Marbella_Grand/img5.jpg",
+      "/Assets/Properties/Marbella_Grand/img6.jpg",
+      "/Assets/Properties/Marbella_Grand/img7.jpg",
+      "/Assets/Properties/Marbella_Grand/img8.jpg",
+      "/Assets/Properties/Marbella_Grand/img9.jpg",
+      "/Assets/Properties/Marbella_Grand/img10.jpg",
+      "/Assets/Properties/Marbella_Grand/img11.jpg",
+      "/Assets/Properties/Marbella_Grand/img12.jpg",
+      "/Assets/Properties/Marbella_Grand/img13.jpg",
+      "/Assets/Properties/Marbella_Grand/img14.jpg",
+      "/Assets/Properties/Marbella_Grand/img15.jpg",
+      "/Assets/Properties/Marbella_Grand/img16.jpg",
+      "/Assets/Properties/Marbella_Grand/img17.jpg"
+    ],
     "description": "Ultra-luxury 3 to 5 BHK residences with world-class amenities and grand architecture.",
+    "longDesc": "Living and indulging in a luxurious life is what every individual desire nowadays. This is when the idea was born to come up with fine and stylish craftsmanship that magnificently defines luxury living. Located in the Heart of Punjab, SRG Marbella Grand is an embodiment of stylish, urbane living that combines luxury, excellent design & superb engineering. A place which brings out the taste of fine living in true sense. Residential project located in the IT City, Sector 82-A, Mohali on 200 ft wide international airport road by SRG Group. Offering Luxurious 3 BHK +Store +Puja Room | 3 +1 BHK + Store +Puja Room | 4 +1 BHK + Store +Puja Room and Exclusive Penthouses & Luxury Earth Villas. The project offers best in class amenities and infrastructure.",
     "location": "Sector 82, Mohali",
     "priceRange": "₹2 Cr - ₹4 Cr",
     "type": "Residential",
@@ -124,16 +163,29 @@
     "status": "Ready to Move",
     "area": "2300 - 4500 sq. ft",
     "amenities": [
-      "Luxury Clubhouse",
-      "Infinity Pool",
-      "Mini Theater",
-      "Jogging Track"
+      "GYM",
+      "Swimming Pool",
+      "Yoga Room",
+      "Jogging Track",
+      "Club House"
     ]
   },
   {
     "id": 5,
     "title": "SUNTEC CITY",
     "image": "/Assets/Properties/Suntec_City/Suntech_city.jpg",
+    "images": [
+      "/Assets/Properties/Suntec_City/img1.jpeg",
+      "/Assets/Properties/Suntec_City/img2.jpeg",
+      "/Assets/Properties/Suntec_City/img3.jpeg",
+      "/Assets/Properties/Suntec_City/img4.jpeg",
+      "/Assets/Properties/Suntec_City/img5.jpeg",
+      "/Assets/Properties/Suntec_City/img6.jpg",
+      "/Assets/Properties/Suntec_City/img7.jpeg",
+      "/Assets/Properties/Suntec_City/img8.jpeg",
+      "/Assets/Properties/Suntec_City/img9.jpeg",
+      "/Assets/Properties/Suntec_City/img10.jpeg"
+    ],
     "description": "VRS Suntec City in Mullanpur, Chandigarh is a ready-to-move housing society. It offers apartments, independent floors and villas in varied budget range. These units are a perfect combination of comfort and style, specifically designed to suit your requirements and conveniences. There are 3BHK apartments, 3BHK independent floors and 3BHK villas available in this project. This housing society is now ready to be called home as families have started moving in. Suntec City have options of Residential Plots 150, 200, 250, 300, 350, 500 & 1300 sq. yards Independent Floors and Commercial Showrooms and Double Storey Shops S+4 independent floors under fully integrated township on PR-7 Airport Road at New Chandigarh.",
     "location": "New Chandigarh, Chandigarh",
     "priceRange": "Contact For Price",
@@ -141,6 +193,11 @@
     "status": "Under Construction",
     "area": "944 - 11700 sq. ft.",
     "layoutPlan": "/Assets/Properties/Suntec_City/Layout.pdf",
+    "paymentPlan": [
+      "/Assets/Properties/Suntec_City/ResidentialPayment.pdf",
+      "/Assets/Properties/Suntec_City/CommericialPayment.pdf",
+      "/Assets/Properties/Suntec_City/builderPayment.pdf"
+    ],
     "amenities": [
       "Club House",
       "Earthquake Resistant Structure",
@@ -162,13 +219,28 @@
     "id": 6,
     "title": "ATLANTIS GRAND",
     "image": "/Assets/Properties/Atlantes_Grand/Atlantis-Grand.jpeg",
+    "images":[
+      "/Assets/Properties/Atlantes_Grand/img1.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img2.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img3.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img4.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img5.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img6.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img7.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img8.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img9.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img10.jpeg",
+      "/Assets/Properties/Atlantes_Grand/img1.png"
+    ],
     "description": "Modern 3BHK apartments with all essentials, perfect for young professionals.",
     "location": "High Ground Road, Zirakpur",
-    "priceRange": "₹65 Lakh - ₹90 Lakh",
+    "longDesc":"Atlantis Grand in Zirakpur, one of the upcoming under-construction housing societies in Chandigarh. There are apartments for sale in Atlantis Grand Zirakpur, Chandigarh. This society will have all basic facilities and amenities to suit homebuyer’s needs and requirements.  Brought to you by Krishna Builders Mohali,  Atlantis Grand is scheduled for possession in Dec, 2028. Being a RERA-registered society, the project details and other important information is also available on state RERA portal. The RERA registration number of this project is PBRERA-SAS79-PR0976.Here’s everything you need to know about the must-know features of this housing society along with Atlantis Grand  Photos,  Floor Plans, Payment Plans, Brochure download procedure  and other exciting facts about your future home.",
+    "priceRange": "Call For Price",
     "type": "Residential",
     "bhk": "3 BHK",
     "status": "Ready to Move",
-    "area": "1550 sq. ft",
+    "area": "1534-1685 sq. ft",
+    
     "brochure": "/Assets/Properties/Atantes_Grand/Brochure.pdf",
     "layoutPlan": "/Assets/Properties/Atlantes_Grand/Layout.pdf",
     "amenities": ["Modular Kitchen", "Power Backup", "Lift", "CCTV Security"]
@@ -177,7 +249,17 @@
     "id": 7,
     "title": "THE PINNACLE",
     "image": "/Assets/Properties/The_Pinnacle/thePinnacle.jpeg",
+    "images": [
+      "/Assets/Properties/The_Pinnacle/img1.png",
+      "/Assets/Properties/The_Pinnacle/img2.png",
+      "/Assets/Properties/The_Pinnacle/img3.png",
+      "/Assets/Properties/The_Pinnacle/img4.png",
+      "/Assets/Properties/The_Pinnacle/img5.png",
+      "/Assets/Properties/The_Pinnacle/img6.png",
+      "/Assets/Properties/The_Pinnacle/img7.png"
+    ],
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
+    "longDesc": "Welcome to The Pinnacle - The Pinnacle Mohali is a luxurious residential group housing located in IT City, Sector 83A, Mohali on Airport Road Opp. Plaksha University. Our 3/4/5 BHK flats are designed to provide you with the ultimate living experience. With premium amenities and a prime location, The Pinnacle is the perfect place to call home.WHERE LUXURY MEETS CONVENIENCE AND ELEGANCE INTERTWINES WITH COMFORT. Experience the epitome of luxury at The Pinnacle Mohali, where refined living meets exceptional elegance. Ascend to the 36th floor and stroll along the Sky Walk, offering breathtaking panoramic views of the city that will truly captivate your senses. Embrace a lifestyle of sophistication and comfort in this exquisite destination. Discover your dream home today at The Pinnacle Mohali.",
     "location": "Sector 83(A), Mohali",
     "priceRange": "₹1.8 Cr - ₹3 Cr",
     "type": "Residential",
@@ -193,6 +275,7 @@
     "title": "LA CANELA",
     "image": "/Assets/Properties/La_Canela/La_Canela.png",
     "description": "Modern 3BHK apartments with all essentials, perfect for young professionals.",
+    "longDesc": "A Well planned extension of Suntec City, La Canela promises a contemporary and stylish living. It offers brilliantly raised 3BHK & SR equipped with world class amenities that will let you experience all the conveniences of a luxurious lifestyle. The spacious and sprawling sit- out areas in each apartment offer a picturesque panoramic view.",
     "location": "New Chandigarh, Chandigarh",
     "priceRange": "₹65 Lakh - ₹90 Lakh",
     "type": "Residential",
@@ -200,7 +283,7 @@
     "bhk": "3 BHK",
     "status": "Ready to Move",
     "area": "1550 sq. ft",
-    "amenities": ["Modular Kitchen", "Power Backup", "Lift", "CCTV Security"]
+    "amenities": ["Modular Kitchen", "Power Backup", "Lift", "CCTV Security", "Park"]
   },
   {
     "id": 9,
@@ -213,6 +296,14 @@
     "bhk": "3 & 4 BHK",
     "status": "Under Construction",
     "brochure": "/Assets/Properties/Cybrum/Brochure.pdf",
+    "layoutPlan":[
+      "/Assets/Properties/Cybrum/pdfFLayout.pdf",
+      "/Assets/Properties/Cybrum/2FLayout.pdf",
+      "/Assets/Properties/Cybrum/3Layout.pdf",
+      "/Assets/Properties/Cybrum/4Layout.pdf",
+      "/Assets/Properties/Cybrum/5Layout.pdf",
+      "/Assets/Properties/Cybrum/6Layout.pdf"
+    ],
     "area": "2500 - 3500 sq. ft",
     "amenities": ["Lake View", "Private Garden", "Terrace", "Fireplace"]
   },
@@ -230,8 +321,9 @@
       "/Assets/Properties/Falcon_View/img8.jpeg"
     ],
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
+    "longDesc": "Falcon View in Mohali offers luxury living through its 3+1 BHK and 4+1 BHK apartments, designed to provide space, comfort, and sophistication. Located on Airport Road, these ready-to-move flats are tailored for modern families, featuring spacious bedrooms and living areas ideal for relaxation and entertainment. The project emphasizes elegance and modernity, aiming to redefine luxury living in the region. Reviews and ratings highlight the project's emphasis on quality and comfort, with many appreciating the well-designed spaces and premium amenities. Pros include the luxurious interiors, excellent location, and the convenience of ready-to-move-in flats. Some potential buyers, however, have pointed out that the premium pricing may be a consideration, making it less accessible for a broader range of buyers. Overall, it maintains a positive reputation for those seeking upscale residential options in Mohali.",
     "location": "Sector 66(D), Airport Road, Mohali",
-
+    "priceRange": "Call For Price",
     "brochure": "/Assets/Properties/Falcon_View/Brochure.pdf",
     "rateCard": [
       "/Assets/Properties/Falcon_View/TOWERT&U.docx",
@@ -310,8 +402,9 @@
     "priceRange": "Call For Price",
     "description": "Charming 3BHK & 4BHK cottage overlooking the lake — your escape to peace and luxury.",
     "location": "Sector 88, Mohali",
+    "longDesc": "Horizon Belmond is a stunning project by Horizon Group, located in Mohali Sector 88. It offers 3+1 & 4+1 BHK apartments. Inclusively, the estate comprises of 6.5 Acres of green and open landscape area with a variety of smartly designed amenities. At Horizon Belmond, experience the best of nature from the comfort of your home with panoramic views. The thoughtfully planned development offers vast open spaces, Amphitheater, Library, Badminton Court, Gym, lavish clubhouse, etc to give you a truly excellent lifestyle. In addition, here you will experience the best of urban living with great connectivity and proximity to retail conveniences. Hence, ranging from the simplest but the most treasured luxuries together created Horizon Belmond in Mohali.",
     "brochure": "/Assets/Properties/Horizon_Belmond/BROCHURE.pdf",
-    "layoutPlan":"/Assets/Properties/Horizon_Belmond/Layout.pdf",
+    "layoutPlan": "/Assets/Properties/Horizon_Belmond/Layout.pdf",
     "rateCard": "/Assets/Properties/Horizon_Belmond/Payment_Plan.pdf",
     "type": "Residential",
     "bhk": "3 & 4 BHK",

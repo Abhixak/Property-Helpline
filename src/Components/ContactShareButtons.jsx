@@ -68,12 +68,6 @@ const ContactShareButtons = () => {
         {showContactOptions && (
           <div className="absolute top-full !mt-2 bg-white border rounded shadow !p-4 w-56 z-10 space-y-2">
             <button
-              onClick={handleEmail}
-              className="block w-full text-left !px-2 !py-1 hover:bg-gray-100"
-            >
-              📧 Write an Email
-            </button>
-            <button
               onClick={handleCall}
               className="block w-full text-left !px-2 !py-1 hover:bg-gray-100"
             >

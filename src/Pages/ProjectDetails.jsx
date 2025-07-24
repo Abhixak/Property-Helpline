@@ -6,6 +6,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 import AllProjects from "../Components/AllProjects";
 import Footer from "../Components/Footer";
 import ContactShareButtons from "../Components/ContactShareButtons";
+import ResaleForm from "../Components/ResaleForm";
 // import PropertySuggestions from "../Components/PropertySuggestions";
 
 const ProjectDetails = () => {
@@ -354,6 +355,7 @@ const ProjectDetails = () => {
         )}
       </div>
       {/* <PropertySuggestions /> */}
+      <ResaleForm />
       <Footer />
     </>
   );

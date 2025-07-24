@@ -9,7 +9,7 @@ const ContactWhatsapp = () => {
 
   const buttonRef = useRef(null);
   const dropdownRef = useRef(null);
-  const hideTextTimer = useRef(null); // Store the timer ID
+  const hideTextTimer = useRef(null);
 
   // Start or reset the hide timer — only for small/medium screens
   const startHideTimer = () => {
@@ -24,8 +24,6 @@ const ContactWhatsapp = () => {
 
   const handleContact = () => {
     setShowContactOptions((prev) => !prev);
-
-    // Show text again and restart hide timer if needed
     setHideText(false);
     startHideTimer();
   };
@@ -39,13 +37,13 @@ const ContactWhatsapp = () => {
     window.open(`https://wa.me/919216399808?text=${message}`, "_blank");
   };
 
-  // Initial hide timer on component mount
+  // Initial hide timer
   useEffect(() => {
     startHideTimer();
     return () => clearTimeout(hideTextTimer.current);
   }, []);
 
-  // Calculate position (above/below)
+  // Determine dropdown position
   useEffect(() => {
     if (showContactOptions && buttonRef.current) {
       const rect = buttonRef.current.getBoundingClientRect();
@@ -68,14 +66,9 @@ const ContactWhatsapp = () => {
       }
     };
 
-    if (showContactOptions) {
-      document.addEventListener("mousedown", handleClickOutside);
-    } else {
-      document.removeEventListener("mousedown", handleClickOutside);
-    }
-
+    document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [showContactOptions]);
+  }, []);
 
   return (
     <div className="fixed bottom-6 right-6 inline-block z-50">
@@ -88,28 +81,28 @@ const ContactWhatsapp = () => {
         {!hideText && <span>Contact Us</span>}
       </button>
 
-      {showContactOptions && (
-        <div
-          ref={dropdownRef}
-          className={`absolute ${
-            positionAbove ? "bottom-full !mb-2 right-1" : "top-full !mt-2"
-          } bg-white border rounded shadow !p-4 w-56 z-50 space-y-2`}
+      <div
+        ref={dropdownRef}
+        className={`absolute transition-all duration-300 ease-in-out transform ${
+          positionAbove ? "bottom-full !mb-2 right-1" : "top-full !mt-2"
+        } bg-white border rounded shadow !p-4 w-56 z-50 space-y-2
+          ${showContactOptions ? "opacity-100 scale-100 pointer-events-auto" : "opacity-0 scale-95 pointer-events-none"}
+        `}
+      >
+        <button
+          onClick={handleCall}
+          className="block w-full flex justify-center gap-2 items-center !px-2 !py-1 hover:bg-gray-100"
         >
-          <button
-            onClick={handleCall}
-            className="block w-full flex justify-center gap-2 items-center !px-2 !py-1 hover:bg-gray-100"
-          >
-            📞 Make a Call
-          </button>
-          <button
-            onClick={handleWhatsApp}
-            className="block w-full flex justify-center gap-2 items-center !px-2 !py-1 hover:bg-gray-100"
-          >
-            <IoLogoWhatsapp className="text-green-600" />
-            Chat on WhatsApp
-          </button>
-        </div>
-      )}
+          📞 Make a Call
+        </button>
+        <button
+          onClick={handleWhatsApp}
+          className="block w-full flex justify-center gap-2 items-center !px-2 !py-1 hover:bg-gray-100"
+        >
+          <IoLogoWhatsapp className="text-green-600" />
+          Chat on WhatsApp
+        </button>
+      </div>
     </div>
   );
 };

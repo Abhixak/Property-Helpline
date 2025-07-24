@@ -7,6 +7,7 @@ import AllProjects from "../Components/AllProjects";
 import Footer from "../Components/Footer";
 import ContactShareButtons from "../Components/ContactShareButtons";
 import ResaleForm from "../Components/ResaleForm";
+import ContactWhatsapp from "../Components/ContactWhatsapp";
 // import PropertySuggestions from "../Components/PropertySuggestions";
 
 const ProjectDetails = () => {
@@ -28,6 +29,8 @@ const ProjectDetails = () => {
   return (
     <>
       <Nav />
+      <ContactWhatsapp />
+
       <div className="!px-6 rounded-xl !py-10 max-w-6xl !mx-auto bg-white">
         <h1 className="text-3xl md:text-4xl text-left !ml-3 font-bold text-blue-800 !mb-4">
           {property.title}

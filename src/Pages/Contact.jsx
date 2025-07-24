@@ -2,11 +2,14 @@ import React from "react";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 import EnquiryForm from "../Components/Enquire";
+import ContactWhatsapp from "../Components/ContactWhatsapp";
 
 const Contact = () => {
   return (
     <>
       <Nav />
+      <ContactWhatsapp />
+
       <div className="!px-6">
         <h2 className="text-2xl bg-gray-100 !px-8 !py-6 rounded-t-xl text-red-800 font-semibold">
           CONTACT

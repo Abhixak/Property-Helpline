@@ -1,11 +1,12 @@
 import React from "react";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
-
+import ContactWhatsapp from "../Components/ContactWhatsapp";
 const About = () => {
   return (
     <>
       <Nav />
+      <ContactWhatsapp />
       <div className="!px-6">
         <section className="rounded-xl !px-6 !py-10 bg-gray-50 text-gray-800">
           <div className="max-w-7xl !mx-auto">

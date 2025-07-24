@@ -8,7 +8,7 @@ const Contact = () => {
     <>
       <Nav />
       <div className="!px-6">
-        <h2 className="text-2xl bg-gray-100 !p-6 rounded-t-xl text-red-800 font-semibold">
+        <h2 className="text-2xl bg-gray-100 !px-8 !py-6 rounded-t-xl text-red-800 font-semibold">
           CONTACT
         </h2>
       </div>

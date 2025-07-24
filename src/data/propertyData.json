@@ -84,6 +84,7 @@
     "location": "Adjoining MC Office, Sector 68, Mohali, Punjab",
     "priceRange": "2.50 Cr. - 7.75 Cr",
     "type": "Commercial Shops",
+    "brochure":"/Assets/Properties/District_One/Brochure.pdf",
     "status": "Ready to Move",
     "area": "1098 - 4392 Sq.ft.",
     "amenities": [
@@ -122,6 +123,7 @@
     "priceRange": "Call For Price",
     "type": "Residential Flats & Apartments",
     "bhk": "3 & 4 BHK",
+    "brochure": "/Assets/Properties/Beverly/Brochure.pdf",
     "layoutPlan": "/Assets/Properties/Beverly/Layout.pdf",
     "status": "Under Construction",
     "amenities": [
@@ -160,6 +162,7 @@
     "priceRange": "₹2 Cr - ₹4 Cr",
     "type": "Residential",
     "bhk": "3, 4 & 5 BHK",
+    "brochure": "/Assets/Properties/Marbella_Grand/Brochure.pdf",
     "status": "Ready to Move",
     "area": "2300 - 4500 sq. ft",
     "amenities": [

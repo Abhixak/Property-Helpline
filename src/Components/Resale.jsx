@@ -20,8 +20,9 @@ const Resale = () => {
   const houses = resaleData.filter((item) => item.type === "House");
   const plots = resaleData.filter((item) => item.type === "Plot");
 
+
   const renderPropertyCard = (property) => {
-    const { images, title, location } = property;
+    const { images, title, location, price } = property;
     let firstImage = null;
 
     if (Array.isArray(images)) {
@@ -43,7 +44,10 @@ const Resale = () => {
             className="rounded-lg w-full h-40 object-cover"
           />
         )}
-        <h3 className="text-sm font-semibold !mt-2">{title}</h3>
+        <h3 className="text-sm font-semibold text-red-700 !mt-2">{title}</h3>
+        {price && (
+          <p className="text-sm text-green-600 font-medium !mt-1">₹ {price}</p>
+        )}
         <p className="text-xs text-gray-600">{location}</p>
       </div>
     );

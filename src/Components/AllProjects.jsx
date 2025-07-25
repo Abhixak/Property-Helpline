@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import properties from "../data/propertyData.json";
 import Footer from "./Footer";
+import Resale from "./Resale";
 
 const AllProjects = () => {
   const [activeIndex, setActiveIndex] = useState(0);

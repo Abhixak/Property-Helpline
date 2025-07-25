@@ -9,7 +9,6 @@ const Projects = () => {
     <div>
       <Nav />
       <ContactWhatsapp />
-
       <AllProjects />
       <Footer />
     </div>

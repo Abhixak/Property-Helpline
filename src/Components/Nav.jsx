@@ -29,7 +29,7 @@ const Nav = () => {
                 <Link
                   to={link.path}
                   className={`!px-3 !py-2 transition ${
-                    location.pathname === link.path ? "text-[#A78E75]" : "hover:text-[#A78E75]"
+                    location.pathname === link.path ? "text-red-800" : "hover:text-blue-600"
                   }`}
                 >
                   {link.name}

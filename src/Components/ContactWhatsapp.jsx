@@ -33,7 +33,7 @@ const ContactWhatsapp = () => {
   };
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hi! I would like to connect with you.");
+    const message = encodeURIComponent("Hi! I would like to connect with you regarding Property related Query.");
     window.open(`https://wa.me/919216399808?text=${message}`, "_blank");
   };
 

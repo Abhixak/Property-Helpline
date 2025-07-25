@@ -7,7 +7,6 @@ const loadImage = (filename) => {
   return `/Assets/ResalePropertyData/${filename}`;
 };
 
-
 const Resale = () => {
   const [selectedProperty, setSelectedProperty] = useState(null);
   const [viewAll, setViewAll] = useState({
@@ -125,11 +124,11 @@ Please share more details.`;
 
       {/* Modal */}
       {selectedProperty && (
-        <div className="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center z-50 !p-4">
+        <div className="fixed inset-0 bg-black/60 flex justify-center items-center z-50 !p-4">
           <div className="bg-white rounded-xl shadow-xl max-w-xl w-full overflow-y-auto max-h-[90vh] !p-4 relative">
             <button
               onClick={() => setSelectedProperty(null)}
-              className="absolute top-2 right-4 font-bold text-xl cursor-pointer text-red-500 hover:text-black"
+              className="absolute top-2 right-4 font-bold text-xl cursor-pointer text-red-500 hover:text-red-700"
             >
               ✕
             </button>
@@ -137,6 +136,11 @@ Please share more details.`;
             <h2 className="text-xl text-red-700 font-bold !mb-2">
               {selectedProperty.title}
             </h2>
+            {selectedProperty.price && (
+              <p className="text-lg text-green-600">
+                <strong>Price:</strong> {selectedProperty.price}
+              </p>
+            )}
             <p className="text-sm text-gray-600 !mb-2">
               <strong>Location:</strong> {selectedProperty.location}
             </p>
@@ -163,11 +167,6 @@ Please share more details.`;
                 <strong>Facing:</strong> {selectedProperty.facing}
               </p>
             )}
-            {selectedProperty.price && (
-              <p className="text-sm text-gray-600">
-                <strong>Price:</strong> {selectedProperty.price}
-              </p>
-            )}
             {selectedProperty.facilities?.length > 0 && (
               <p className="text-sm text-gray-600 !mb-2">
                 <strong>Facilities:</strong>{" "}
@@ -176,8 +175,8 @@ Please share more details.`;
             )}
 
             {/* Modal Images */}
-            {selectedProperty.images && (
-              Array.isArray(selectedProperty.images) ? (
+            {selectedProperty.images &&
+              (Array.isArray(selectedProperty.images) ? (
                 <div className="grid grid-cols-2 gap-2 !mt-4">
                   {selectedProperty.images.map((img, idx) => {
                     const imagePath = loadImage(img.split("/").pop());
@@ -197,10 +196,9 @@ Please share more details.`;
                 <img
                   src={loadImage(selectedProperty.images.split("/").pop())}
                   alt="property"
-                  className="rounded-lg w-full h-48 object-cover !mt-4"
+                  className="rounded-lg w-full h-48 object-contain !mt-4"
                 />
-              ) : null
-            )}
+              ) : null)}
 
             <div className="flex flex-col sm:flex-row gap-4 !mt-6">
               <a

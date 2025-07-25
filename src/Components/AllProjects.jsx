@@ -68,7 +68,7 @@ const AllProjects = () => {
           <img
             src={activeProperty.image}
             alt={activeProperty.title}
-            className="w-full object-contain rounded-xl !mb-5"
+            className="w-full object-cover rounded-xl !mb-5"
           />
           <h2 className="text-2xl font-bold text-red-900">
             {activeProperty.title}
@@ -76,6 +76,9 @@ const AllProjects = () => {
           <p className="text-gray-600 !mt-3 leading-relaxed">
             Price : {activeProperty.priceRange}
           </p>
+          {/* <p className="text-gray-600 !mt-3 leading-relaxed">
+            Description : {activeProperty.description}
+          </p> */}
           <p className="text-gray-600 !mt-3 leading-relaxed">
             Location : {activeProperty.location}
           </p>

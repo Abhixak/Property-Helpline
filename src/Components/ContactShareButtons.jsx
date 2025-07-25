@@ -4,7 +4,7 @@ import { IoLogoWhatsapp, IoMdContacts } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import clsx from "clsx"; // optional: for cleaner class management
 
-const ContactShareButtons = () => {
+const ContactShareButtons = ({ property }) => {
   const [showContactOptions, setShowContactOptions] = useState(false);
   const navigate = useNavigate();
   const dropdownRef = useRef(null);
@@ -41,7 +41,13 @@ const ContactShareButtons = () => {
   };
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hi! I would like to connect with you.");
+    const message = encodeURIComponent(
+      `Hi! I'm interested in the following property:\n\n🏢 *${
+        property?.title || "Property"
+      }*\n📍 Location: ${property?.location || "N/A"}\n💰 Price: ₹${
+        property?.priceRange || "N/A"
+      }\n\nPlease share more details.`
+    );
     window.open(`https://wa.me/919216399808?text=${message}`, "_blank");
   };
 
@@ -88,7 +94,8 @@ const ContactShareButtons = () => {
           className={clsx(
             "absolute top-full !mt-2 bg-white border rounded shadow w-56 z-10 overflow-hidden transition-all duration-300 ease-in-out",
             {
-              "opacity-100 translate-y-0 visible p-4 space-y-2": showContactOptions,
+              "opacity-100 translate-y-0 visible p-4 space-y-2":
+                showContactOptions,
               "opacity-0 -translate-y-2 invisible h-0 p-0": !showContactOptions,
             }
           )}

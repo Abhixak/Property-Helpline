@@ -124,7 +124,7 @@ const ProjectDetails = () => {
           </div>
         )}
 
-        <ContactShareButtons />
+        <ContactShareButtons property={property} />
 
         {/* Info Section */}
         <div className="flex flex-col md:flex-row md:items-center gap-2 md:justify-between !mb-6 mt-6">
